@@ -1,0 +1,15 @@
+{
+  "data/joint16/budget-recommendations.json": "b9d9b3b49b274b1122b400da144dbdb4971b558d10458d6a615f5f6a79318427",
+  "data/joint16/paired-bootstrap.json": "7efa649e65097c886d77416463ee1d74d4010a2f1db74dbcd60fb15f1f100960",
+  "data/joint16/paired-records.npz": "02f56eb3f8dce7c77edd40395149a927c2c81169acc030bef40072bdd2fdaec3",
+  "data/joint16/path-counts.json": "b06db78c917e293a271f727ae20ef48d78c210a8413b50f67ca1ba1e364d5293",
+  "data/joint16/profiles.json": "fead29b453cbfe5fd27576efd5958ee0c35690842665a083a3f0b80282ebe0d8",
+  "data/joint16/results.csv": "075901f8c9b9ae381be819ff3b60982e83a6343b3241727c0454a2e6787b3e8e",
+  "data/joint16/timings.npz": "913b03ff27daa304f17fc96a3d8a7e34daf121c12d136437e38f30a8f648bc98",
+  "data/phase1/results.csv": "b1a4ff974101616ab18988e66e44a664b08bfb66fb0a5731ba37d8cc119fd1c0",
+  "data/phase2/results.csv": "ab68fede9d6ae284babd2755c2c7e7fda7b3009c8461de709215aa710d0c2dd8",
+  "configs/common.json": "a19ee4bc0753a7c42caa8d7335c425351d41bf62287da07d97558e80a721806f",
+  "configs/joint16.json": "dc71b346ac91cbd6b90a62b05aac96b16bbe29f4982b7984cf59d83bb48cd4be",
+  "configs/phase1.json": "38952674336afed71f449697701fdc252fdae3cb1ed1c4e8119f5425ae1e6723",
+  "configs/phase2.json": "9bf1b2ddf4636caf3235267543048e9142e8054ad351f09d97c45b552acea2a2"
+}

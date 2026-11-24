@@ -1,0 +1,20 @@
+{
+  "counts": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "quality_batch_size": 4,
+  "initial_beam": 500,
+  "retry_beam": 1000,
+  "automatic_beam_retry": true,
+  "retry_condition": "fewer than100 unique items; at most one additional full generation",
+  "profile_batches": [
+    1,
+    4
+  ],
+  "cost_scope": "historical exclusive compute-process checks; clocks not locked",
+  "warning": "Actual search budgets differ by configuration; do not merge with joint16 costs."
+}

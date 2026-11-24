@@ -1,0 +1,48 @@
+{
+  "dataset": "AmazonReviews2023",
+  "category": "Video_Games",
+  "kcore": "5core",
+  "users": 94762,
+  "items": 25612,
+  "training_interactions": 625062,
+  "training_prefixes": 530300,
+  "split": "per-user last-out; validation penultimate, test final item",
+  "history": 20,
+  "training_seed": 2024,
+  "epochs": 30,
+  "steps": 62160,
+  "train_batch_size": 256,
+  "checkpoint_selection": "fixed epoch30",
+  "aggregation": "agg_max",
+  "precision": "float32",
+  "seen_filter": false,
+  "popularity_fill": false,
+  "upstream_repository": "https://github.com/hyp1231/Latte",
+  "upstream_commit": "05e4e6d983225bcb7172f148a076890e80c524d1",
+  "model": {
+    "encoder_layers": 4,
+    "decoder_layers": 4,
+    "d_model": 128,
+    "d_ff": 1024
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "learning_rate": 0.003,
+    "weight_decay": 0.05,
+    "warmup_steps": 10000,
+    "cosine_horizon_steps": 310800,
+    "clip_norm": 1
+  },
+  "semantic_id": {
+    "encoder": "sentence-t5-base",
+    "embedding_dim": 768,
+    "pca_dim": 192,
+    "quantizer": "RQKMeans",
+    "levels": 3,
+    "codebook_size": 256,
+    "collision_repair": true,
+    "pca_catalog": "all items; content catalog assumed available",
+    "quantizer_training_items": 25527,
+    "heldout_only_items_encoded": 85
+  }
+}

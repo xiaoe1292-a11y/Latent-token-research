@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "tasks": 420,
+  "reused_tasks": 225,
+  "new_tasks": 195,
+  "user_point_records": 1516192,
+  "raw_timed_batches": 12288,
+  "raw_sample_paths": 60000,
+  "candidate_block_manifests": 5936,
+  "paired_bootstrap_comparisons": 36,
+  "cost_exclusive_points": 0,
+  "cost_shared_points": 16,
+  "scope": "offline ranks/shard sums/samples/timings/source audit; full ASIN candidate audit performed remotely"
+}

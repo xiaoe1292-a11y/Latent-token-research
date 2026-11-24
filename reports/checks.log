@@ -1,0 +1,94 @@
+$ python scripts/verify_results.py --output reports/public-verification.json
+{
+  "status": "passed",
+  "points": 16,
+  "user_point_records": 1516192,
+  "raw_timed_requests": 12288,
+  "paired_bootstrap_comparisons": 36,
+  "historical_quality_points_checked": 9,
+  "phase1_models_archived": 5,
+  "observed_pareto": [
+    "n02-b0500",
+    "n04-b0500",
+    "n04-b1000",
+    "n08-b0250",
+    "n08-b1000",
+    "n08-b2000",
+    "n16-b0250"
+  ],
+  "cost_mode": "shared_gpu_observation",
+  "python": "3.9.16",
+  "numpy": "1.26.0",
+  "scope": "CPU recalculation of published ranks, path sums, raw times, paired bootstrap and budgets. Full candidate lists/checkpoints are not included."
+}
+
+
+$ python -m unittest discover -s tests -v
+test_changed_recall_is_rejected_against_real_rank_arrays (test_public_results.ActualEvidenceControls) ... ok
+test_reclassifying_shared_measurements_as_exclusive_is_rejected (test_public_results.ActualEvidenceControls) ... ok
+test_wrong_memory_units_are_rejected_against_raw_bytes (test_public_results.ActualEvidenceControls) ... ok
+test_every_user_gains_has_exact_unit_difference (test_statistics.StatisticsTests) ... ok
+test_paired_reordering_and_full_coverage_are_distinguished (test_statistics.StatisticsTests) ... ok
+test_pareto_rejects_slower_worse_points (test_statistics.StatisticsTests) ... ok
+test_unpaired_or_empty_populations_are_rejected (test_statistics.StatisticsTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.170s
+
+OK
+
+
+$ python scripts/summarize.py
+{
+  "recall100_matrix": {
+    "2": {
+      "250": 0.23390177497309048,
+      "500": 0.23470378421730229,
+      "1000": 0.2347143369705156,
+      "2000": 0.2347143369705156
+    },
+    "4": {
+      "250": 0.20312994660306874,
+      "500": 0.23807011249234925,
+      "1000": 0.23861885565944155,
+      "2000": 0.23861885565944155
+    },
+    "8": {
+      "250": 0.15542094932567907,
+      "500": 0.21426310124311432,
+      "1000": 0.23920980983938708,
+      "2000": 0.23950528692935988
+    },
+    "16": {
+      "250": 0.10832401173466158,
+      "500": 0.15548426584495895,
+      "1000": 0.21560330090120514,
+      "2000": 0.23586458707076677
+    }
+  },
+  "winners_by_fixed_beam": {
+    "250": "n02-b0250",
+    "500": "n04-b0500",
+    "1000": "n08-b1000",
+    "2000": "n08-b2000"
+  },
+  "observed_pareto": [
+    "n02-b0500",
+    "n04-b0500",
+    "n04-b1000",
+    "n08-b0250",
+    "n08-b1000",
+    "n08-b2000",
+    "n16-b0250"
+  ],
+  "cost_scope": "shared GPU observation, not isolated performance or service SLA"
+}
+
+
+$ python scripts/plot_results.py
+{"status": "passed", "csv_sha256": "075901f8c9b9ae381be819ff3b60982e83a6343b3241727c0454a2e6787b3e8e", "images": {"heatmap.png": "ce4c37d3ffd2286f3017ebb222a568e0e891f010c88b7278327e6d6973aaf06d", "pareto.png": "4f13094f77e921c3f353667c12f2b2449e340e04ed35b5fee0d89c964a463962", "recall-vs-beam.png": "36468becabc4673b886004d88a1ce7b3ba9168eb913355bcf674cc770f6516b8", "unique-vs-beam.png": "e0c345a10f76a46e3a48781eac0df717457f4379d407ef5d3db21ff0ea4a2c2c"}, "description": "Figures reconstructed from verified CSV; chart arrays checked against source data."}
+
+
+$ python scripts/build_report.py
+Report written: C:\Users\FengZiyu\Documents\ChatGPT\Onerec\exports\latte-latent-beam-study\outputs\REPORT.md
+

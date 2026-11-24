@@ -1,0 +1,450 @@
+{
+  "n02-b0250": {
+    "paths": 23690500.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 106346.0,
+    "valid_paths": 23584154.0,
+    "unique_beam_items": 12691376.0,
+    "duplicate_valid_paths": 10892778.0,
+    "effective_latents": 188929.16731825762,
+    "latent_beam_totals": [
+      12750957,
+      10939543
+    ],
+    "latent_valid_totals": [
+      12691376,
+      10892778
+    ]
+  },
+  "n02-b0500": {
+    "paths": 47381000.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 347067.0,
+    "valid_paths": 47033933.0,
+    "unique_beam_items": 25063841.0,
+    "duplicate_valid_paths": 21970092.0,
+    "effective_latents": 189090.01753115337,
+    "latent_beam_totals": [
+      25255747,
+      22125253
+    ],
+    "latent_valid_totals": [
+      25063841,
+      21970092
+    ]
+  },
+  "n02-b1000": {
+    "paths": 94762000.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 1147196.0,
+    "valid_paths": 93614804.0,
+    "unique_beam_items": 49487193.0,
+    "duplicate_valid_paths": 44127611.0,
+    "effective_latents": 189197.2680599917,
+    "latent_beam_totals": [
+      50117675,
+      44644325
+    ],
+    "latent_valid_totals": [
+      49487193,
+      44127611
+    ]
+  },
+  "n02-b2000": {
+    "paths": 189524000.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 3880615.0,
+    "valid_paths": 185643385.0,
+    "unique_beam_items": 97485510.0,
+    "duplicate_valid_paths": 88157875.0,
+    "effective_latents": 189270.70298843173,
+    "latent_beam_totals": [
+      99611471,
+      89912529
+    ],
+    "latent_valid_totals": [
+      97485510,
+      88157875
+    ]
+  },
+  "n04-b0250": {
+    "paths": 23690500.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 70169.0,
+    "valid_paths": 23620331.0,
+    "unique_beam_items": 6943522.0,
+    "duplicate_valid_paths": 16676809.0,
+    "effective_latents": 375456.6693065259,
+    "latent_beam_totals": [
+      5923870,
+      4774388,
+      6966021,
+      6026221
+    ],
+    "latent_valid_totals": [
+      5906399,
+      4762107,
+      6943522,
+      6008303
+    ]
+  },
+  "n04-b0500": {
+    "paths": 47381000.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 252235.0,
+    "valid_paths": 47128765.0,
+    "unique_beam_items": 13527399.0,
+    "duplicate_valid_paths": 33601366.0,
+    "effective_latents": 376542.5270697078,
+    "latent_beam_totals": [
+      11863006,
+      9893718,
+      13605080,
+      12019196
+    ],
+    "latent_valid_totals": [
+      11799918,
+      9846294,
+      13527399,
+      11955154
+    ]
+  },
+  "n04-b1000": {
+    "paths": 94762000.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 789530.0,
+    "valid_paths": 93972470.0,
+    "unique_beam_items": 26522208.0,
+    "duplicate_valid_paths": 67450262.0,
+    "effective_latents": 377155.5513876717,
+    "latent_beam_totals": [
+      23744030,
+      20252327,
+      26761156,
+      24004487
+    ],
+    "latent_valid_totals": [
+      23546495,
+      20099148,
+      26522207,
+      23804620
+    ]
+  },
+  "n04-b2000": {
+    "paths": 189524000.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 2462045.0,
+    "valid_paths": 187061955.0,
+    "unique_beam_items": 52000030.0,
+    "duplicate_valid_paths": 135061925.0,
+    "effective_latents": 377613.3604586759,
+    "latent_beam_totals": [
+      47497326,
+      41340302,
+      52739479,
+      47946893
+    ],
+    "latent_valid_totals": [
+      46880754,
+      40857522,
+      52000025,
+      47323654
+    ]
+  },
+  "n08-b0250": {
+    "paths": 23690500.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 34940.0,
+    "valid_paths": 23655560.0,
+    "unique_beam_items": 4105810.0,
+    "duplicate_valid_paths": 19549750.0,
+    "effective_latents": 732836.6863196843,
+    "latent_beam_totals": [
+      2110695,
+      3129252,
+      2191611,
+      3169892,
+      2708495,
+      2242936,
+      4036440,
+      4101179
+    ],
+    "latent_valid_totals": [
+      2107933,
+      3124771,
+      2188741,
+      3165224,
+      2704759,
+      2239992,
+      4029852,
+      4094288
+    ]
+  },
+  "n08-b0500": {
+    "paths": 47381000.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 115747.0,
+    "valid_paths": 47265253.0,
+    "unique_beam_items": 7792865.0,
+    "duplicate_valid_paths": 39472388.0,
+    "effective_latents": 740830.5207715441,
+    "latent_beam_totals": [
+      4495789,
+      6229394,
+      4629276,
+      6285675,
+      5522265,
+      4712849,
+      7707018,
+      7798734
+    ],
+    "latent_valid_totals": [
+      4486769,
+      6214275,
+      4619908,
+      6270001,
+      5509701,
+      4703272,
+      7685109,
+      7776218
+    ]
+  },
+  "n08-b1000": {
+    "paths": 94762000.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 469346.0,
+    "valid_paths": 94292654.0,
+    "unique_beam_items": 14950779.0,
+    "duplicate_valid_paths": 79341875.0,
+    "effective_latents": 745829.0015243754,
+    "latent_beam_totals": [
+      9410512,
+      12394116,
+      9634945,
+      12478064,
+      11188581,
+      9777737,
+      14868471,
+      15009574
+    ],
+    "latent_valid_totals": [
+      9370344,
+      12332426,
+      9593305,
+      12414938,
+      11135593,
+      9735350,
+      14785586,
+      14925112
+    ]
+  },
+  "n08-b2000": {
+    "paths": 189524000.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 1660211.0,
+    "valid_paths": 187863789.0,
+    "unique_beam_items": 28944880.0,
+    "duplicate_valid_paths": 158918909.0,
+    "effective_latents": 748824.6065828345,
+    "latent_beam_totals": [
+      19422281,
+      24681549,
+      19813895,
+      24817948,
+      22568919,
+      20064612,
+      28961765,
+      29193031
+    ],
+    "latent_valid_totals": [
+      19275189,
+      24463879,
+      19662142,
+      24596178,
+      22380745,
+      19910733,
+      28674004,
+      28900919
+    ]
+  },
+  "n16-b0250": {
+    "paths": 23690500.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 11787.0,
+    "valid_paths": 23678713.0,
+    "unique_beam_items": 2331216.0,
+    "duplicate_valid_paths": 21347497.0,
+    "effective_latents": 1431097.8986942528,
+    "latent_beam_totals": [
+      2332767,
+      1180691,
+      1023818,
+      1556196,
+      1610706,
+      1966278,
+      774098,
+      1028968,
+      1093063,
+      1826597,
+      2148579,
+      1985540,
+      1258828,
+      780336,
+      1606381,
+      1517654
+    ],
+    "latent_valid_totals": [
+      2331200,
+      1180237,
+      1023449,
+      1555450,
+      1609905,
+      1965157,
+      773881,
+      1028616,
+      1092662,
+      1825603,
+      2147204,
+      1984371,
+      1258316,
+      780120,
+      1605603,
+      1516939
+    ]
+  },
+  "n16-b0500": {
+    "paths": 47381000.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 48067.0,
+    "valid_paths": 47332933.0,
+    "unique_beam_items": 4329490.0,
+    "duplicate_valid_paths": 43003443.0,
+    "effective_latents": 1459302.631332968,
+    "latent_beam_totals": [
+      4335309,
+      2476321,
+      2206943,
+      3113914,
+      3191867,
+      3767715,
+      1748547,
+      2216711,
+      2326920,
+      3544589,
+      4050625,
+      3796539,
+      2607470,
+      1759034,
+      3188919,
+      3049577
+    ],
+    "latent_valid_totals": [
+      4329440,
+      2474304,
+      2205276,
+      3110827,
+      3188568,
+      3763297,
+      1747485,
+      2215041,
+      2325122,
+      3540596,
+      4045432,
+      3792025,
+      2605251,
+      1757973,
+      3185708,
+      3046588
+    ]
+  },
+  "n16-b1000": {
+    "paths": 94762000.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 217564.0,
+    "valid_paths": 94544436.0,
+    "unique_beam_items": 8169982.0,
+    "duplicate_valid_paths": 86374454.0,
+    "effective_latents": 1476438.0494247782,
+    "latent_beam_totals": [
+      8192899,
+      5125133,
+      4654715,
+      6211316,
+      6330831,
+      7276589,
+      3832903,
+      4673833,
+      4866948,
+      6912777,
+      7735557,
+      7324883,
+      5342838,
+      3849496,
+      6330951,
+      6100331
+    ],
+    "latent_valid_totals": [
+      8169885,
+      5114936,
+      4645990,
+      6196972,
+      6315962,
+      7257913,
+      3826515,
+      4665022,
+      4857663,
+      6895452,
+      7714549,
+      7305981,
+      5331868,
+      3843105,
+      6316180,
+      6086443
+    ]
+  },
+  "n16-b2000": {
+    "paths": 189524000.0,
+    "invalid_latent": 0.0,
+    "invalid_sid": 824286.0,
+    "valid_paths": 188699714.0,
+    "unique_beam_items": 15599744.0,
+    "duplicate_valid_paths": 173099970.0,
+    "effective_latents": 1487465.5810720946,
+    "latent_beam_totals": [
+      15678384,
+      10509371,
+      9680821,
+      12374705,
+      12571266,
+      14157261,
+      8206507,
+      9715137,
+      10064387,
+      13542821,
+      14920845,
+      14239431,
+      10875649,
+      8232408,
+      12573945,
+      12181062
+    ],
+    "latent_valid_totals": [
+      15599524,
+      10467759,
+      9643853,
+      12320422,
+      12515547,
+      14090218,
+      8177969,
+      9678130,
+      10025543,
+      13479837,
+      14847779,
+      14171554,
+      10831338,
+      8203814,
+      12518425,
+      12128002
+    ]
+  }
+}

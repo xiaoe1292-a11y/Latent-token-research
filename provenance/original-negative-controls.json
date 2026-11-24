@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "rejected_corruptions": 3,
+  "cases": [
+    {
+      "case": "recall_plus_001",
+      "rejected": true,
+      "check": "close(float((ranks <= k).mean()), float(r[key]), 1e-12)",
+      "error": "(0.23390177497309048, 0.23490177497309048)"
+    },
+    {
+      "case": "memory_bytes_as_mib",
+      "rejected": true,
+      "check": "close(p['peak_allocated_bytes'] / 1048576, float(r['peak_allocated_mib']))",
+      "error": "(288.37939453125, 302387712.0)"
+    },
+    {
+      "case": "wrong_resource_policy_hash",
+      "rejected": true,
+      "check": "assert hashlib.sha256((root / 'resource-policy-v1.json').read_bytes()).hexdigest() == cost['resource_policy_sha256']",
+      "error": ""
+    }
+  ],
+  "scope": "isolated copies of actual final artifacts; originals not changed"
+}

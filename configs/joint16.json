@@ -1,0 +1,76 @@
+{
+  "counts": [
+    2,
+    4,
+    8,
+    16
+  ],
+  "beams": [
+    250,
+    500,
+    1000,
+    2000
+  ],
+  "quality_batch_size": 2,
+  "test_users": 94762,
+  "automatic_beam_retry": false,
+  "generate_calls_per_request": 1,
+  "returned_slots": 100,
+  "new_training": false,
+  "profile_batch_size": 1,
+  "profile_users": 256,
+  "profile_repeats": 3,
+  "warmup_batches": 5,
+  "profile_split": "first256 validation users",
+  "cuda_synchronize": true,
+  "profiling_device": "same physical NVIDIA GeForce RTX 4090 for all16 points",
+  "profile_mode": "shared_gpu_observation",
+  "observed_profile_order": [
+    "n02-b2000",
+    "n04-b2000",
+    "n08-b2000",
+    "n04-b0250",
+    "n08-b1000",
+    "n04-b0500",
+    "n02-b0250",
+    "n16-b0500",
+    "n08-b0500",
+    "n04-b1000",
+    "n16-b0250",
+    "n02-b0500",
+    "n08-b0250",
+    "n16-b1000",
+    "n02-b1000",
+    "n16-b2000"
+  ],
+  "quality_reused_points": [
+    "n04-b0500",
+    "n04-b1000",
+    "n04-b2000",
+    "n08-b0500",
+    "n08-b1000",
+    "n08-b2000",
+    "n16-b0500",
+    "n16-b1000",
+    "n16-b2000"
+  ],
+  "bootstrap": {
+    "draws": 20000,
+    "seed": 20261123,
+    "unit": "paired test user, not training seed",
+    "comparisons": "adjacent beam within N and all N pairs at each beam",
+    "multiplicity": "exploratory unadjusted intervals"
+  },
+  "repeat_points": [
+    "n02-b0500",
+    "n04-b0500",
+    "n08-b1000",
+    "n16-b2000"
+  ],
+  "checkpoint_sha256": {
+    "2": "ce6b3721a5d60e330c1598bdc5f8f8e7df636ece844bedbf14b8c00eb2d39bed",
+    "4": "f19c5fd6de1f89e7fb0257f311a2f43a025e298b97d05d58526988063edff09b",
+    "8": "4b1b3b4c776992824411af9526c6ba60f6690b0c4ad8c7088a15f9c8b7041057",
+    "16": "c96210457fc189ed5f5864252c8c4af605c2986d2a06ed8c30461d776c25b31b"
+  }
+}

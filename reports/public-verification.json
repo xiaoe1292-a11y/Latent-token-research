@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "points": 16,
+  "user_point_records": 1516192,
+  "raw_timed_requests": 12288,
+  "paired_bootstrap_comparisons": 36,
+  "historical_quality_points_checked": 9,
+  "phase1_models_archived": 5,
+  "observed_pareto": [
+    "n02-b0500",
+    "n04-b0500",
+    "n04-b1000",
+    "n08-b0250",
+    "n08-b1000",
+    "n08-b2000",
+    "n16-b0250"
+  ],
+  "cost_mode": "shared_gpu_observation",
+  "python": "3.9.16",
+  "numpy": "1.26.0",
+  "scope": "CPU recalculation of published ranks, path sums, raw times, paired bootstrap and budgets. Full candidate lists/checkpoints are not included."
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "statistics_and_corruption_tests": 7,
+  "quality_points": 16,
+  "user_point_records": 1516192,
+  "raw_timed_requests": 12288,
+  "paired_bootstrap_comparisons": 36,
+  "python_files_parsed": 28,
+  "local_document_links_checked": 36,
+  "text_files_reviewed_for_connection_and_credential_markers": 63,
+  "visual_review": "Four joint-study figures reviewed; reconstructed heatmap/Pareto and historical phase1 quality figure also inspected. Labels and legends legible.",
+  "original_snapshot_hashes_unchanged": 1317,
+  "scope": "Local CPU commands passed. No remote publishing or hosted GitHub Actions run was performed."
+}

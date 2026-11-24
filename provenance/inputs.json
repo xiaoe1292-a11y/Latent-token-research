@@ -1,0 +1,25 @@
+{
+  "input_sha256": {
+    "phase1/results.csv": "b1a4ff974101616ab18988e66e44a664b08bfb66fb0a5731ba37d8cc119fd1c0",
+    "phase1/protocol.json": "0866265be1c92b3e3fa63f4695a166fd7ea0fdfaf3813a6cef109870fc3f02b1",
+    "phase1/completion-audit.json": "2b2b957fdcabb20ee3e558929efe4a65ce7df7e728805e124aa8e7ad8cc833ee",
+    "phase2/results.csv": "ab68fede9d6ae284babd2755c2c7e7fda7b3009c8461de709215aa710d0c2dd8",
+    "phase2/protocol.json": "150037f2b514ba9f4e1124ee0e53b98c3ab69d9205e1708500ad68fedcd5b284",
+    "phase2/completion-audit.json": "3979d08000e205175ac38c56fd6c3ec1fb5553e2188b8c3ccd16c0aaa7dc3834",
+    "joint16/results.csv": "983e54a9c863d383efc0aca83eb7960ac2f5a9d349546e0309f68149141cbab5",
+    "joint16/protocol.json": "656d8a894e68756207551c92e8b3c070c4e0171a79596fe97331df8b6b243a81",
+    "joint16/completion-audit.json": "d54114860a8f914d1e618137e5bcc8a54048162d7efdea0b8b73bebc817a5453"
+  },
+  "public_export": {
+    "joint16_csv": "Preserved every numeric field; removed physical GPU UUID and background process IDs only.",
+    "paired_npz": "Byte-identical to audited snapshot; user indices, no user identifiers or histories.",
+    "timings_npz": "Raw768 timed calls per point; no background PID or machine address fields.",
+    "original_figures_sha256": {
+      "heatmap.png": "fcb069bed618e1199efac4cf7cccbd779c8f2f6880c6f855df143ebf7b29ef34",
+      "recall-vs-beam.png": "bf9d47cf35e415b218ee13fd51e6df4afb258cd531db520554536e84753c3f06",
+      "pareto.png": "5c93a173c03ac254cb670b815317f90f55cf5d66b5a7ba57722854e912075576",
+      "unique-vs-beam.png": "673fe27411a747eae90e335fc484f66d9582b2cd919b6ada424a64b2edacb28d"
+    }
+  },
+  "original_results_archive_sha256": "9eba394b345fbe51949c45a8e2a1ec07a800bbd909f890da7d42e4b0cfaef66a"
+}

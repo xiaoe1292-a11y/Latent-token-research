@@ -1,0 +1,22 @@
+{
+  "reference/phase1/stage1.py": "9667ca75b55d245d7e45984c8652679e370e01c0e5dcdb24acc0b60e0bd544fb",
+  "reference/phase1/metrics.py": "36db198285ce9e9b930f5b5834fa50304e0943b2d9447b72fcdd228f602f4214",
+  "reference/phase1/final_manager.py": "6b2a0d122fbb11272a6e91c035004bdcc21b2c6b7bb0b9a94633d90ad3049533",
+  "reference/phase1/report_checked.py": "e828e731719422e1ac0759ee088a21cc1717ae7c0db724c630fb48e208b6d94b",
+  "reference/phase2/inference2.py": "0d062b14191e02b037435c905975fcdd4e50423e2149c528f3e48be387f0c624",
+  "reference/phase2/diagnostics.py": "2b3d7b557d52a8170698cf10d21722f6ac9eb3d3039701db81892f2cd8354341",
+  "reference/phase2/report2.py": "aa42b8647779bc3274b7cd93cd4041bd5ffe96d582837a2e5d8c3063f9abe3c8",
+  "reference/joint16/joint16.py": "f3ab15d59e21f02c459066bc0b48b4b704f2bb16423d86bdd670f82cdd689a66",
+  "reference/joint16/joint_report.py": "cc75de463dec33d4ec5c6d91e9f5c7e101f1379dae855caf84d1efb47e34e726",
+  "reference/joint16/joint_stats.py": "fcc484d7bb85c5910635dddf81bb488bb52b301e73875ab9461b53e79b9b51b1",
+  "reference/joint16/profile_worker.py": "daf296afc6a7fef2f361ac405dcc596e0b379bb0b70c8e40ed9c1547fc1a80b3",
+  "reference/joint16/resource_worker.py": "676f0e87e0e949fe8686d60fe3a55b1ad5dbaf76d912f34595d021a15dfb3f06",
+  "reference/joint16/resource_controller.py": "6ca805266d6a7f4298196cbb915745e18468f4c13d16b31d5fed3bd4c7be7898",
+  "reference/joint16/shared_controller.py": "2ced217183cf62bf9a9273cb6d1ac3b6feb1a0807ecf34d51385ff20a06144df",
+  "reference/joint16/shared_report.py": "40008465bf3e87257b8748c5fb6c2bd3459bbfea46f7dd11e4b22dda47912249",
+  "reference/runtime_helpers/train_bounded.py": "7779f16b418b72fac63b1365fd00b24fb1312c5564eb11a61a31fe6919491938",
+  "reference/runtime_helpers/training_runtime.py": "fd2a50773a508715c7e1dc182af19529164a5230aeb31f912bd084d2fbc662a9",
+  "reference/runtime_helpers/profile_full_models.py": "2287e7a6e83f06cb8b177c9bac6989af4f21c289666a797623a2f4ec716d64c1",
+  "reference/runtime_helpers/run_controlled.py": "64e46516c84572adf19b8f15cc796a45355a9d5c2b47b12bbf4ae7531125a685",
+  "reference/runtime_helpers/flow_models.py": "9ee4729e6c5792b6e15b89756c31aecdf11ff52804f3a3e3cf55dca07e7a55b3"
+}

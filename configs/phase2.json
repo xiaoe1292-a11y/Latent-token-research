@@ -1,0 +1,16 @@
+{
+  "counts": [
+    4,
+    8,
+    16
+  ],
+  "beams": [
+    500,
+    1000,
+    2000
+  ],
+  "quality_batch_size": 2,
+  "automatic_beam_retry": false,
+  "cost_scope": "separate historical batch with exclusive compute-process checks; no locked clocks",
+  "reuse": "Nine quality points reused by joint16; current joint16 costs remeasured independently."
+}
